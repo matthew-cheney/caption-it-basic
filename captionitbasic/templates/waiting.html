@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block content %}
+ <meta http-equiv="refresh" content="2; /waiting">
+
+<div class="row text-center">
+    <div class="col-lg-12">
+<h1>once everyone has submitted a caption, hit the button</h1>
+<form action="allin", method="post">
+    <button type="submit" class="btn btn-primary btn-lg">all in</button>
+</form>
+    </div>
+</div>
+
+{% endblock content %}
